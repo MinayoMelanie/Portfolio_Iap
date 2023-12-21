@@ -1,0 +1,278 @@
+<!-- index.html (Home Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adele.Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-tabs {
+            list-style: none;
+            padding: 0;
+            margin: 10px;
+            display: flex;
+        }
+
+        .nav-tabs li {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<ul class="nav-tabs">
+    <li onclick="navigateTo('Home')">Home</li>
+    <li onclick="navigateTo('Main')">Main</li>
+    <li onclick="navigateTo('Final')">Final</li>
+</ul>
+
+    <div  id="home-page" class="content">
+        <div class="home-page" >
+            <h1> ADELE LAURIE BLUE BIOGRAPHY</h1>
+            <h2>Adele a "regular girl" who is now among the greatest singers</h2>
+              <p1>
+        </div>
+            <div class="home-style">
+                <img src="adele.webp" alt="Adele" width="600" height="400">
+                <h4><b>Category:</b> Arts & Culture</h4>
+                <h4><b>Byname of:</b> Adele Laurie Blue Adkins</h4>
+                <h4><b>Born:</b> May 5, 1988, Tottenham, London, England (age 35)</h4>
+                <h4><b>Awards And Honors:</b> Grammy Award for best new artist Grammy Award (2017) Grammy Award (2011) Grammy Award (2008)</h4>
+                <h4><b>Years active</b> 2006 – present</h4>
+                <h4><b>Spouces</b> 2	Simon Konecki ​(m. 2018; div. 2021)</h4>
+                <h4><b>Children</b> 1</h4>
+                <h4><b>Labels</b> XL .Columbia Melted Stone</h4>
+                
+            </p1>
+            
+            <p>
+                Well known for her mezzo-soprano vocals and sentimental songwriting. Adele has received numerous accolades including 16 Grammy Awards, 12 Brit Awards (including three for British Album of the Year), an Academy Award, a Primetime Emmy Award, and a Golden Globe Award.
+            </p>
+            <p>
+                English singer-songwriter Adele has received various awards and nominations. She is the recipient of twelve Brit Awards, an Academy Award, a Primetime Emmy Award, a Golden Globe Award, sixteen Grammy Awards, eighteen Billboard Music Awards, five American Music Awards, and two Ivor Novello Awards for Songwriter of the Year.
+                
+                Adele signed a contract with the record label XL Recordings in September 2006.[1] She won the BBC Sound of 2008, an annual poll awarded to recognise newcomers in the music industry.[2] Later in the same year, she won the Brits Critics' Choice, and released her debut album 19 to international success.[3] Adele named the Best New Artist at the 51st Annual Grammy Awards, while "Chasing Pavements" – received three nominations for Record of the Year, Song of the Year, and Best Female Pop Vocal Performance, winning the later award. Her debut single "Hometown Glory" earned another nomination for Best Female Pop Vocal Performance at the 52nd Annual Grammy Awards.
+                
+                Adele's second studio album 21 was released in January 2011 and held the top position for 24 weeks in the United States.[4] Three of its singles—"Rolling in the Deep", "Someone like You", and "Set Fire to the Rain"—reached number one on the Billboard Hot 100.[5] The former won three Grammy Awards – Record of the Year, Song of the Year, and Best Short Form Music Video. 21 won Album of the Year and Best Pop Vocal Album. "Someone like You" and "Set Fire to the Rain" won Best Pop Solo Performance at the 54th and 55th Annual Grammy Awards, respectively. Adele was awarded several other accolades, including the Echo Music Award for Album of the Year, and won in 12 Billboard Music Award categories. In 2012, she released "Skyfall", a song of the 2012 James Bond film of the same name.[6] The song won a Brit Award for British Single; the Academy Award, and Golden Globe for Best Original Song; and a Grammy Award. Adele received five awards at the 2016 Billboard Music Awards, including one for her third studio album 25. She also won the British Album of the Year at the 36th Brit Awards, in addition to winning three other awards. The album also won Grammy Awards for Album of the Year and Best Pop Vocal Album, and the single "Hello" received Record of the Year, Song of the Year and Best Pop Solo Performance at the 59th Annual Grammy Awards. After a six years hiatus, Adele released her fourth studio album 30 to critical acclaim and global success. The album has garnered her four nominations at the 42nd Brit Awards, including her third consecutive win for British Album of the Year. The album also received six nominations at the 65th Annual Grammy Awards, including her third consecutive nomination for Album of the Year.
+                Adele is one of the world's best-selling music artists, with sales of over 120 million records worldwide. The best-selling female artist of the 21st century in the UK,[7] she was named the best-selling artist of the 2010s decade in the US and worldwide.[8] Her studio albums 21 and 25 were the top two best-selling albums of the 2010s in the UK and both are listed among the best-selling albums in UK chart history, while in the US both are certified Diamond, the most of any artist who debuted in the 21st century.
+            </p>
+            <div>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                    }
+            
+                    form {
+                        width: 300px;
+                        margin: auto;
+                    }
+            
+                    label {
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+            
+                    input {
+                        width: 100%;
+                        padding: 8px;
+                        margin-bottom: 10px;
+                    }
+            
+                    button {
+                        padding: 8px 12px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        cursor: pointer;
+                    }
+                </style>
+            
+            <div class="form-style">
+
+                <form id="userForm">
+                    <h2>Log in to get Biographies of many more people</h2>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" placeholder="0712345678" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </form>
+            </div>
+            <script>
+                function submitForm() {
+                    const firstName = document.getElementById('firstName').value;
+                    const lastName = document.getElementById('lastName').value;
+                    const phoneNumber = document.getElementById('phoneNumber').value;
+                    const email = document.getElementById('email').value;
+            
+                    // You can perform further actions with the collected data (e.g., send it to a server, display it)
+                    console.log('Submitted Data:');
+                    console.log('First Name:', firstName);
+                    console.log('Last Name:', lastName);
+                    console.log('Phone Number:', phoneNumber);
+                    console.log('Email:', email);
+                }
+            </script>
+
+            </div>
+        </div>
+    </div>
+                
+       
+        
+        <div class="main-style" id="main-page" class="content hidden">
+            <p1>
+                <h2>EARLY LIFE AND EDUCATION</h2>
+                Adele Laurie Blue Adkins  was born on 5 May 1988 in the Tottenham district of London, to an English mother, Penny Adkins, and a Welsh father, Marc Evans.[10] After Evans left when Adele was 2, she was brought up by her mother.[11][12] She began singing at age 4 and asserts that she became obsessed with voices.[13][14] In 1997, 9-year-old Adele and her mother, who by then had found work as a furniture maker and an adult-learning activities organiser, relocated to Brighton on the south coast of England.[15]
+                
+                In 1999, Adele and her mother moved back to London; first to Brixton, then to the neighbouring district of West Norwood in south London, which is the subject of her first song "Hometown Glory".[16] Adele spent much of her youth in Brockwell Park where she would play the guitar and sing to friends, which she recalled in her 2015 song "Million Years Ago". She stated, "It has quite monumental moments of my life that I've spent there, and I drove past it [in 2015] and I just literally burst into tears. I really missed it."[17] Adele graduated from the BRIT School for Performing Arts & Technology in Croydon in May 2006,[18] where she was a classmate of Leona Lewis and Jessie J.[9][19] Adele credits the school with nurturing her talent[20] even though, at the time, she was more interested in going into artists and repertoire (A&R) and hoped to launch other people's careers.[9]
+                
+            </p1>
+
+            <p4>
+                <h2>CAREER</h2>
+        <div class="career0-style">
+        <img src="adele19.jpg" alt="Adele" width="600" height="500">
+
+            <div>
+                <h2>Adele’s Albums at ‘19’ (2008)</h2>
+                Adele’s debut album, 19, which is named for the singer's age when she began recording the project, went on sale in early 2008. Led by two popular lead singles, "Hometown Glory" and "Chasing Pavements," the record rocketed Adele to fame.
+        
+                Released in the United States through Columbia Records, 19 resonated with American audiences, much as it had with British music fans. Adele cemented her commercial success with an appearance in October 2008 on Saturday Night Live. At the taping of the show, the album was ranked No. 40 on iTunes. Less than 24 hours later, it was No. 1.
+                After graduating in arts from the BRIT School in 2006,[4] Adele signed a record deal with XL Recordings. Her debut album, 19, was released in 2008 and included the UK top-five singles "Chasing Pavements" and "Make You Feel My Love". 19 has sold over 2.5 million copies in the UK and was named in the top 20 best-selling debut albums of all time in the UK.[5][6] She was honoured with the Grammy Award for Best New Artist. Adele released her second studio album, 21, in 2011. It became the world's best-selling album of the 21st century, with sales of over 31 million. 21 holds the record for the top-performing album in US chart history, topping the Billboard 200 for 24 weeks, with the singles "Rolling in the Deep", "Someone like You", and "Set Fire to the Rain" heading charts worldwide, becoming her signature songs. The album received a record-tying six Grammy Awards, including Album of the Year. In 2012, Adele released "Skyfall", a soundtrack single for the James Bond film Skyfall, which won her the Academy Award for Best Original
+            </div>
+        </div>
+        <div class="career1-style">
+            <img src="adele21.jpg" alt="Adele" width="600" height="650">
+            
+            <div>
+                <h3>At 21</h3>
+                <p> Adele’s much-anticipated follow-up album, 21, again named for her age at the time of recording, did not disappoint upon its release in early 2011. Tapping even deeper into Adele's appreciation for classic American R&B and jazz, the record was a monster hit, selling 352,000 copies within its first week.
+                    Anchored by hits like "Rolling in the Deep" and "Someone Like You," 21 placed Adele in rarified air. In February 2011, she found herself with two Top 5 singles and a pair of Top 5 albums in the same week, becoming the only artist besides the Beatles and 50 Cent to achieve that milestone. And with 21 staying at No. 1 for 11 weeks, Adele also broke the solo female artist record previously held by Madonna's Immaculate Collection for consecutive weeks atop the album charts. 21 went on to sell more than 30 million copies worldwide.
+                </p>
+            
+             </div>
+        </div>
+        <div class="career2-style">
+            <img src="adele25.jpg" alt="Adele" width="600" height="550">
+            <div>
+                <h3>At 25</h3>
+                <p>On October 22, 2015, Adele announced that she would release her third album, 25, in November. She posted 25's cover on Instagram, and said of her first full-length studio project in several years: "My last record was a break-up record, and if I had to label this one, I would call it a make-up record. Making up for lost time. Making up for everything I ever did and never did. 25 is about getting to know who I've become without realizing. And I'm sorry it took so long but, you know, life happened."
+                   
+                   25, released in November 2015, is a collection of emotional, sometimes plaintive songs looking at the ins and outs of relationships, owing much of its sound to traditional pop craft. The album went on to become an international smash hit, reaching No. 1 on iTunes in 110 countries. In the U.S., 25 sold 3.38 million copies in seven days, beating the 'NSync record of 2.42 million album copies sold in a week. Among other feats, 25 is also the only album to reach a million copies sold in the United States in 10 days.
+                   The album broke first-week sales records in the UK and US. In the US, it remains the only album to sell over three million copies in a week. 25 earned her five Grammy Awards, including the Album of the Year. The lead single, "Hello", achieved huge success worldwide. Her fourth studio album, 30, released in 2021, contains the chart-topping and Grammy-winning single "Easy on Me". 25 and 30 became the best-selling albums worldwide, including the US and the UK, in 2015 and 2021, respectively. As of 2023, all of her studio albums, except 19, have topped the yearly best-selling albums chart worldwide in the 21st century.
+                  
+                </p> 
+            </div>
+        </div>
+        <div class="career3-style">
+            <img src="adeleat30.jpg" alt="Adele" width="630" height="550">
+            <div>
+
+                <h3>At 30</h3>
+                <p> On November 19, 2021, Adele released her fourth album 30.
+                    Adele was reportedly working on her fourth studio album by 2018.[174] On 5 May 2019, her 31st birthday, Adele posted several black-and-white pictures of herself on her Instagram account celebrating the occasion along with a message reflecting on the preceding year. The message ended with, "30 will be a drum n bass record to spite you". Media outlets took the post as an indication that a new album was on the way.[175][176] On 15 February 2020, Adele announced at a friend's wedding that her fourth studio album would be out by September 2020.[177] However, she later confirmed that the album's production and release had been delayed due to the COVID-19 pandemic.[178] Adele made her first television appearance in almost four years by hosting the 24 October 2020 episode of Saturday Night Live, with musical guest H.E.R.[179]
+            
+                   
+                </p>
+                
+            </div>
+        </div>
+        
+</div>
+
+<div class="final-page" id="final-page" class="content hidden">
+   
+    <h2>AWARDS</h2>
+        <div class="final-style">
+                <img src="grammysadele.jpg" alt="Adele" width="550" height="450">
+                <div>
+                    <h2>Grammy Awards</h2>
+                    <P>
+                        Adele has been nominated for 18 Grammys and won a total of 15 at the awards ceremonies in 2009, 2012 and 2017. She also received a songwriting Oscar for the James Bond track "Skyfall."
+            
+                    At the 2009 Grammy awards, Adele took home Best New Artist. In addition, the album earned the singer the distinction of being named the "Sound of 2008" by the BBC. That same year, she earned the Critics' Choice prize at the BRIT Awards.
+            
+                    In 2012, Adele swept the Grammy Awards, taking home six wins, including Album of the Year. "This record is inspired by something that is really normal and everyone's been through it—just a rubbish relationship," she said at the ceremony.
+                    In 2013, Adele won her seventh Grammy (Best Pop Solo Performance) for her hit single "Set Fire to the Rain." That same year, the singer won a Golden Globe and an Academy Award for "Skyfall," the theme song for the 2013 James Bond film of the same name.
+            
+                    In 2016, Adele performed the ballad "All I Ask," co-written by Bruno Mars, on the 58th Annual Grammy Awards while dealing with technical glitches from the accompanying piano.
+            
+                    In 2017, Adele returned to the Grammy stage and had to stop her tribute to the late George Michael, a slowed down version of his song "Fastlove," and start over, saying: "I'm sorry — I can’t mess this up for him." She went on to sing the song to a standing ovation. She then swept the awards with five wins for her work on 25, including album, record and song of the year, as well as Best Pop Solo Performance and Best Pop Vocal Album. With her historic wins, Adele became the first artist in Grammy history to sweep the top three categories twice.
+                    In her acceptance speech for album of the year, she acknowledged fellow nominee Beyoncé and her groundbreaking album Lemonade. “But my artist of my life is Beyoncé, and this album for me, the Lemonade album, was just so monumental," she said.
+                     </P>
+                     
+                </div>
+        </div>
+                     <h2>HUSBAND AND CHILD</h2>
+                     <p>
+                        In 2011, Adele met her former partner Simon Konecki, who is 13 years her senior and the founder of Life water and the charity Drop4Drop. On June 29, 2012, Adele announced on her website that she was pregnant with the couple’s first child. She spoke to People magazine about being a mother: "I really want to be a mum. I better start getting on with it!" she said. She gave birth to her son Angelo on October 19, 2012.
+            
+                        In early 2017, Adele was spotted wearing a wedding band, sparking marriage rumors. At her January 2017 Grammy acceptance speech, Adele appeared to confirm the rumors by calling Konecki her husband. “Grammys, I appreciate it, the Academy, I love you, my manager, my husband and my son – you’re the only reason I do it,” she said at the time. Although in interviews backstage she referred to Konecki as her “partner,” she confirmed her marriage in March during a concert in Brisbane, Australia.
+                        In 2015, Adele said, "I'm a feminist, I believe that everyone should be treated the same, including race and sexuality".[238] Supportive of the LGBT community, on 12 June 2016, an emotional Adele dedicated her show in Antwerp, Belgium, to the victims of the mass shooting at a gay nightclub in Orlando, Florida, United States, earlier that day, adding, "The LGBTQ community, they're like my soul mates since I was really young, so I'm very moved by it."[277][278]
+
+                        In April 2018, it was widely reported that Adele had become an ordained minister in order to officiate at close friend comedian Alan Carr's wedding to Paul Drayton, something which Adele herself subsequently confirmed. The wedding, held in January 2018, took place in the garden of her house in Los Angeles, California.[279]
+
+                        On 14 October 2023, during a concert of her Weekends with Adele residency, the singer revealed that she had suffered from "borderline alcoholism" since her 20s, and that she had been sober for three months.[280]
+                    </p>
+                    <h2>WEALTH</h2>
+                    <p>
+
+                        In 2012, Adele topped the List of Richest Young Musicians under 30 in the UK, included on the Sunday Times Rich List.[284] In July 2012, she was listed at number six in Forbes list of the world's highest-paid celebrities under the age of 30, having earned £23 million between May 2011 and May 2012.[285] For six consecutive years, from 2013 to 2018, Adele topped the List of Richest Young Musicians under 30 in the UK and Ireland as part of the Sunday Times' annual Rich List.[286] In 2015, Adele said she declined all sorts of lucrative endorsement offers out of personal choice.[287] In 2015, she reported paying £4 million tax in the UK.[288] In July 2016, Adele was ranked number nine on the Forbes list of the 100 highest-paid celebrities in the world.[289] In November 2016 and November 2017, she was in second place on the Forbes list of the world's highest-paid women in music, earning US$80.5 million and $69 million, respectively.[290] The Sunday Times Rich List valued her wealth at £125 million in 2017, and she was ranked the 19th UK's richest musician overall whilst being the only woman in the top 20.[291] Adele owns and operates two companies, Melted Stone Ltd and Melted Stone Publishing.[292] In 2017, she earned $11.2 million in royalties from record sales, after taxes, according to official documents from her companies, without any new album release at the time, and whilst spending her time off.[293] On the 2019 Sunday Times Rich List, Adele was valued at £150 million (US$180.5 million) as the 22nd-richest musician in the UK despite not having toured since 2017.[294]
+                        
+                        In 2012, Adele and then-partner Konecki purchased a $3.4 million Art Deco villa in Portslade, on the outskirts of Brighton and Hove, which she sold for $3.7 million in 2016. That same year, she bought two houses built side-by-side in Kensington for $7.7 million and $7.3 million, respectively, with the intention of combining them. Adele also bought a home for her mother in West London for around $817,000.[295] In 2013, she temporarily rented Paul McCartney's 12,000-square-foot (1,100 m2) former mansion for an undisclosed price. In 2015, Adele purchased a $5.2 million Mediterranean-style vacation mansion in Malibu, California, and sold it in 2017 for less than its original purchase price, $4.8 million.[295] She envisioned buying several properties on the same street in a Beverly Hills gated community, beginning with the first home purchased for $9.5 million from Don Mischer in 2016.[296][297] During her Madison Square Garden tour in September 2016, Adele rented NBA player Deron Williams' Tribeca apartment for three weeks at a monthly rent of $60,000.[298][295] In 2017, she and Konecki purchased a $5.3 million Tudor mansion called Ridge Hill Manor, located in the English countryside on the outskirts of East Grinstead.[295] In 2019 and 2021, Adele bought two more Beverly Hills mansions for $10.65 million and $10 million, respectively; the latter was purchased from Nicole Richie and her husband, Joel Madden.[299][300] In February 2022, it was reported she bought Sylvester Stallone's 21,000-square-foot (2,000 m2) former mansion in Beverly Park, Los Angeles, for $58 million.[301][302]
+                    </p>
+</div>
+
+<script>
+    function navigateTo(page) {
+        const pages = ['Home', 'Main', 'Final'];
+
+        // Hide all pages
+        pages.forEach((p) => {
+            const pageElement = document.getElementById(`${p.toLowerCase()}-page`);
+            pageElement.classList.add('hidden');
+        });
+
+        // Show the selected page
+        const selectedPageElement = document.getElementById(`${page.toLowerCase()}-page`);
+        selectedPageElement.classList.remove('hidden');
+    }
+</script>
+
+    <link href="praclayout.css" rel="stylesheet" type="text/css">
+
+<body>
+    
+
+    <footer class="footer">
+        
+       
+        <p>&copy; 2023 Adele Laurie Blue</p>
+
+    </footer>
+
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+ .final-style{
+  display: flex;
+  
+ }
+ .home-page{
+  background-color: rgb(78, 4, 4);
+  padding: 30px;
+  text-align: center;
+
+  text-emphasis-color: black;
+  color: white;
+ }
+ .home-style{
+   border: 10px solid rgb(53, 45, 45);
+   background-color: rgb(126, 112, 112);
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
+  }
+  .form-style{
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  border: 10px solid rgb(53, 45, 45);
+  background-color: rgb(94, 10, 10);
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  
+ }
+ .main-style{
+  border: 10px solid rgb(53, 45, 45);
+  background-color: rgb(126, 112, 112);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+ }
+ .final-page{
+  border: 10px solid rgb(53, 45, 45);
+  background-color: rgb(126, 112, 112);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+ }
+ .career0-style{
+  display: flex;
+  border: 25px solid rgb(127, 111, 111);
+ }
+ .career1-style{
+  display: flex;
+  border: 25px solid rgb(127, 111, 111);
+ }
+ .career2-style{
+  display: flex;
+  border: 25px solid rgb(127, 111, 111);
+ }
+ .career3-style{
+  display: flex;
+  border: 25px solid rgb(127, 111, 111);
+ }
+ .footer{
+  display: flex;
+  justify-content: center;
+ }
